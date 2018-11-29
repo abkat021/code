@@ -1,1 +1,4 @@
 # Add all files that I want git to ignore
+.ipynb_checkpoints/
+.virtualenvs/
+pythonMisc/
