@@ -1,0 +1,15 @@
+# LIST OF COMMANDS I SHOULD START TO LEARN
+# - cat
+# - sed (sed 's/a/b/g')
+# - awk (awk '{print $1}')
+# - grep (grep [sthg] & grep -v [sthg])
+# - find (Need to know what this does, not master)
+# - head (and tail)
+# - echo
+# - >, < and friends (1&>2)
+# - quoting (read grymoire)
+# - environment variables (env, set, export)
+# - functions
+# - source
+# - touch
+# - ln -s (symbolically linking files)

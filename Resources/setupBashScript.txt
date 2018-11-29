@@ -1,0 +1,5 @@
+EXPLAINS HOW TO INITIALIZE AND RUN ANY BASH SCRIPT
+
+1. Create the file with the extension .sh
+2. Add the shebang #!/bin/bash (or csh, zsh -- this is the interpreter)
+3. Make the file executable using chmod +x [scriptName]
