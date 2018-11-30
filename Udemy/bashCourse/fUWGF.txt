@@ -1,0 +1,22 @@
+FOLLOW UPS WITH GIBSON:
+
+---------
+11.29.18
+---------
+1. I encountered the "" functionality while experimenting with for loops in bash:
+
+		colors="red green blue"         colors="red green blue"    
+		for c in $colors                for c in "$colors"
+		do 								do
+			echo $c 						echo $c
+		done							done
+
+		Output 1:						Output 2:
+		---------						---------
+		red								red green blue
+		green
+		blue
+
+==> Why does this happen?
+
+2. section4/practiceExercises.sh (run subl ~/code/Udemy/bashCourse/section4/practiceExercises.sh)
