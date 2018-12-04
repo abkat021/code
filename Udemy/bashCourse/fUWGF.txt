@@ -19,4 +19,4 @@ FOLLOW UPS WITH GIBSON:
 
 ==> Why does this happen?
 
-2. section4/practiceExercises.sh (run subl ~/code/Udemy/bashCourse/section4/practiceExercises.sh)
+2. section4/practiceExercises.sh (subl ~/code/Udemy/bashCourse/section4/practiceExercises.sh)

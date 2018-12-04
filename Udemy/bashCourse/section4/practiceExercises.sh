@@ -2,17 +2,17 @@
 
 echo "Exercise 1:"
 echo "-----------"
-# Write a shell script that consists of a function that display the number of files in the present working directory. 
+# Write a shell script that consists of a function that displays the number of files in the present working directory. 
 # Name this function "file_count" and call it in your script. If you use a variable in your function, remember to make 
 # it a local variable.
 
 # Hint: The wc utility is used to count the number of lines, words, and bytes.
 
 file_count(){
-	ls -l | wc -l
-	# fileList="$(ls -l $PWD)"
-	# num=$(wc -l "$fileList")
-	# echo $num
+	# ls -l | wc -l
+	fileList="$(ls $PWD)"
+	num="$(wc -l ${fileList})"
+	echo $num
 }
 
 file_count

@@ -1,0 +1,8 @@
+Below are a bunch of useful links that are must-reads
+
+# GENERAL
+1. https://github.com/alex/what-happens-when -- Describes entering a URL and going to that URL in extreme detail
+
+# BASH
+1. https://medium.com/@jhuang1012bn/what-happens-when-you-type-ls-l-in-the-shell-8cf0c182baa8 -- Describes the shell, kernel and how it works
+2. http://www.grymoire.com/Unix/Sh.html -- Bourne shell tutorial
